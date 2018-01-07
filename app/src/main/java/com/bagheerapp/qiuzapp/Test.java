@@ -127,6 +127,7 @@ public class Test extends AppCompatActivity {
         }
 
         if (counter > 28) {
+
             String endToast = getResources().getString(R.string.End_toast);
             Toast.makeText(this, endToast, Toast.LENGTH_LONG).show();
             return;

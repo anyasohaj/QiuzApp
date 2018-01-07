@@ -3,7 +3,7 @@
     <string name="header">CNC Placement Test </string>
     <string name="next">Next</string>
     <string name="start">Start test</string>
-    <string name="End_toast">This is the end. Restart the app!</string>
+    <string name="End_toast">This is the end. Click Back!</string>
     <string name="wrong_answer">Wrong answer!</string>
     <string name="accomplish">You accomplish: </string>
 
