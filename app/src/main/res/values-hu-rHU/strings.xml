@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QiuzApp</string>
+    <string name="header">CNC szintfelmérő teszt</string>
+    <string name="next">Következő</string>
+    <string name="End_toast">Vége! Indítsa újra az alkalmazást!</string>
+    <string name="wrong_answer">Helytelen válasz!</string>
+    <string name="accomplish">"Teljesítménye: "</string>
+</resources>

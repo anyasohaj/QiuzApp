@@ -1,70 +1,75 @@
 <resources>
     <string name="app_name">QiuzApp</string>
-    <string name="header">CNC szintfelmérő teszt</string>
-    <string name="start">Tovább</string>
+    <string name="header">CNC Placement Test </string>
+    <string name="next">Next</string>
+    <string name="start">Start test</string>
+    <string name="End_toast">This is the end. Restart the app!</string>
+    <string name="wrong_answer">Wrong answer!</string>
+    <string name="accomplish">You accomplish: </string>
 
+    <string name="one"> Calculation of constant cutting speed off/ G97 S_</string>
+    <string name="two"> Absolute dimensioning/ G90</string>
+    <string name="three"> Circular and spiral (planar, helical and conical) interpolation, counter-clockwise (CCW)/ G3</string>
+    <string name="four"> Selection of the plane X Y/ G17</string>
+    <string name="five"> Data input in mm/ G21</string>
+    <string name="six"> Spindle On, counter-clockwise/ M4</string>
+    <string name="seven"> Calculation of constant cutting speed on/ G96 S_</string>
+    <string name="eight"> Tool call/ T_ _ _ _</string>
+    <string name="nine"> Corner Rounding/ ,R_</string>
+    <string name="ten"> Calculation of tool radius compensation from the left/ G41</string>
+    <string name="eleven"> Cancelling calculation of tool radius compensation/ G40</string>
+    <string name="twelve"> Selection of the plane Z X/ G18</string>
+    <string name="thirteen"> Workpiece coordinate system 1/ G54</string>
+    <string name="fourteen"> Feed per minute/ G94 F_</string>
+    <string name="fifteen"> Positioning/ G0</string>
+    <string name="sixteen"> Calculation of tool radius compensation from the right/ G42</string>
+    <string name="seventeen"> Spindle Off (Stop)/ M5</string>
+    <string name="eighteen"> Rotary axis A/ A</string>
+    <string name="nineteen"> Rotary axis C/ C</string>
+    <string name="twenty"> Coolant on/ M8</string>
+    <string name="twentyone"> Spindle On, clockwise/ M3</string>
+    <string name="twentytwo"> Clamping the Speed during Calculation of Constant Surface Speed/ G92 S_</string>
+    <string name="twentythree"> Code of imaginary tool tip/ Q _</string>
+    <string name="twentyfour"> Chamfer/ ,C_</string>
+    <string name="twentyfive"> Angle/ ,A_</string>
+    <string name="twentysix"> Feed per revolution/ G95 F_</string>
+    <string name="twentyseven"> Data input in inch/ G20</string>
+    <string name="twentyeight"> End of program/ M30</string>
+    <string name="twentynine"> Linear Interpolation/ G1</string>
+    <string name="thirty"> Positioning in the machine coordinate system/ G53</string>
 
     <string-array name="questions_array">
-        <item>Konstans fordulatszám</item>
-        <item>Abszolút méretmegadás</item>
-        <item>Körinterpoláció óra járással ellentétesen az előtolás irányából nézve</item>
-        <item>X-Y sík</item>
-        <item>Metrikus méretmegadás</item>
-        <item>Főorsó óra járással ellentétesen forog a főorsóból nézve</item>
-        <item>Konstans vágósebesség</item>
-        <item>Szerszámhívás</item>
-        <item>Lekerekítés</item>
-        <item>Kontúrkövetés balról az előtolás irányából</item>
-        <item>Kontúrkövetés kikapcsolva / szerszámsugár korrekció kikapcsolva</item>
-        <item>Z-X sík</item>
-        <item>Első munkadarab nullpont</item>
-        <item>Percenkénti előtolás</item>
-        <item>Egyenes interpoláció gyorsmenetben</item>
-        <item>Kontúrkövetés jobbról az előtolás irányából</item>
-        <item>Főorsó áll</item>
-        <item>X tengely körüli forgó tengely</item>
-        <item>Z tengely körüli forgó tengely</item>
-        <item>Hűtő kenő folyadék bekapcsolva</item>
-        <item>Főorsó óra mutató járással megegyezően forog a főorsóból nézve</item>
-        <item>Maximális főorsó fordulat programozása</item>
-        <item>Szerszámállás kódja</item>
-        <item>Letörés</item>
-        <item>Szög programozása</item>
-        <item>Fordulatonkénti előtolás</item>
-        <item>Inches méretmegadás</item>
-        <item>Program vége</item>
-        <item>Egyenes interpoláció programozott előtolással</item>
-        <item>Gépi koordináta rendszer</item>
+        <item>@string/one</item>
+        <item>@string/two</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/five</item>
+        <item>@string/six</item>
+        <item>@string/seven</item>
+        <item>@string/eight</item>
+        <item>@string/nine</item>
+        <item>@string/ten</item>
+        <item>@string/eleven</item>
+        <item>@string/twelve</item>
+        <item>@string/thirteen</item>
+        <item>@string/fourteen</item>
+        <item>@string/fifteen</item>
+        <item>@string/sixteen</item>
+        <item>@string/seventeen</item>
+        <item>@string/eighteen</item>
+        <item>@string/nineteen</item>
+        <item>@string/twenty</item>
+        <item>@string/twentyone</item>
+        <item>@string/twentytwo</item>
+        <item>@string/twentythree</item>
+        <item>@string/twentyfour</item>
+        <item>@string/twentyfive</item>
+        <item>@string/twentysix</item>
+        <item>@string/twentyseven</item>
+        <item>@string/twentyeight</item>
+        <item>@string/twentynine</item>
+        <item>@string/thirty</item>
     </string-array>
 
-    <string name="answer1">G97 S_</string>
-    <string name="answer2">G90</string>
-    <string name="answer3">G3</string>
-    <string name="answer4">G17</string>
-    <string name="answer5">G21</string>
-    <string name="answer6">M4</string>
-    <string name="answer7">G96 S_</string>
-    <string name="answer8">T_ _ _ _</string>
-    <string name="answer9">,R_</string>
-    <string name="answer10">G41</string>
-    <string name="answer11">G40</string>
-    <string name="answer12">G18</string>
-    <string name="answer13">G54</string>
-    <string name="answer14">G94 F_</string>
-    <string name="answer15">G0</string>
-    <string name="answer16">G42</string>
-    <string name="answer17">M5</string>
-    <string name="answer18">A</string>
-    <string name="answer19">C</string>
-    <string name="answer20">M8</string>
-    <string name="answer21">M3</string>
-    <string name="answer22">G92 S_</string>
-    <string name="answer23">Q _</string>
-    <string name="answer24">,C_</string>
-    <string name="answer25">,A_</string>
-    <string name="answer26">G95 F_</string>
-    <string name="answer27">G20</string>
-    <string name="answer28">M30</string>
-    <string name="answer29">G1</string>
-    <string name="answer30">G53</string>
+
 </resources>
