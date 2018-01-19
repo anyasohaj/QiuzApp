@@ -14,6 +14,8 @@ import java.util.Collections;
 import java.util.Random;
 
 public class Test extends AppCompatActivity {
+
+    // Declaring variables and classes
     int point = 0;
     int points = 0;
     int counter = 0;
@@ -209,6 +211,13 @@ public class Test extends AppCompatActivity {
         Resources res = getResources();
         String[] togetherFromResou = res.getStringArray(R.array.questions_array);
 
+        for (int i=1; i<30; i++){
+            int randomOrder = new Random().nextInt(30);
+            String tmp = togetherFromResou[i];
+            togetherFromResou[i] = togetherFromResou[randomOrder];
+            togetherFromResou[randomOrder] = tmp;
+
+        }
         for (int k = 0; k < 30; k++) {
             questionsAnswers[k] = togetherFromResou[k].split("/");
 
